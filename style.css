@@ -1,0 +1,63 @@
+*,html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /* min-width: 400px; */
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    color: #1F1F1F;
+    background-color: #fff;
+    display: flex;
+}
+ .nav {
+    /* background-color: #111111; */
+    min-width: auto;
+ }
+.navbar {
+    background-color: rgb(164, 109, 109);
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    height: 60px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    .navbar-container {
+        background-color: rgb(255, 0, 4);
+
+        /* position: relative; */
+        /* padding: 0.5rem 1rem; */
+        /* display: flex; */
+        /* flex-direction: row; */
+        /* justify-content: space-between; */
+        /* align-items: center; */
+        /* max-width: 100%; */
+        /* margin: auto; */
+        /* font-size: 14px; */
+        .navbar-main {
+            background-color: rgb(128, 246, 232);
+            /* list-style-type: none; */
+            /* display: flex;
+            justify-content: space-between;
+            flex: 0 0 100%; */
+            .navbar-item {
+                /* /* background-color: #ffffff; */
+                flex: 0 0 auto;
+                text-align: center; */
+                .navbar-links {
+                    color: #1F1F1F;
+                }
+            }
+        }
+    }
+}
+body {
+    background-color: #344395;
+}
