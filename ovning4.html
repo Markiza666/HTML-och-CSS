@@ -6,29 +6,277 @@
     <title>Google</title>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <link rel='stylesheet' href='style.css'>
+    <span class="material-icons"></span>
 </head>
 <body>
     <header class="navbar">
-            <nav class="navbar-container">
-                <ul class="navbar-main">
-                    <li class="navbar-item">
-                        <a href="#" class="navbar-links">Gmail</a>
-                    </li>
-                    <li class="navbar-item">
-                        <a href="#" class="navbar-links">Images</a>
-                    </li>
-                    <li class="navbar-item"></li>
-                        <a href="#" class="navbar-links">
-                            <img src="apps-menu.png" alt="">
-                        </a>
-                    </li>
-                    <li class="navbar-item">
-                        <a href="#" class="navbar-links">
-                            <img src="user.jpg" alt="">
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
+        <nav class="navbar-container">
+            <ul class="navbar-main">
+                <li class="navbar-item">
+                    <a href="#" class="navbar-links">Gmail</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#" class="navbar-links">Bilder</a>
+                </li>
+                <li class="navbar-item"></li>
+                    <a href="#" class="navbar-links">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="55px" fill="#5f6368"><path d="M0 0h24v24H0z" fill="none"/><path d="M4 8h4V4H4v4zm6 12h4v-4h-4v4zm-6 0h4v-4H4v4zm0-6h4v-4H4v4zm6 0h4v-4h-4v4zm6-10v4h4V4h-4zm-6 4h4V4h-4v4zm6 6h4v-4h-4v4zm0 6h4v-4h-4v4z"/></svg>
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#" class="navbar-links">
+                        <img src="user.jpg" alt="Användare"width="31" height="31">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="logo">
+            <img src="google-logo.png" alt="">
+        </section>
+        <section class="search">
+            <div class="search-in">
+                <!-- Looking glass icon -->
+                <div id="Looking-glass">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 0 24 24" width="24px" fill="#5f6368"><path d="M0 0h24v24H0z" fill="none"/><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+                </div>    
+                <!-- Search field -->
+                <input type="text">
+                <!-- Keyboard icon -->
+                <div id="Keyboard">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 0 24 24" width="24px" fill="#5f6368"><path d="M20 5H4c-1.1 0-1.99.9-1.99 2L2 17c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm-9 3h2v2h-2V8zm0 3h2v2h-2v-2zM8 8h2v2H8V8zm0 3h2v2H8v-2zm-1 2H5v-2h2v2zm0-3H5V8h2v2zm9 7H8v-2h8v2zm0-4h-2v-2h2v2zm0-3h-2V8h2v2zm3 3h-2v-2h2v2zm0-3h-2V8h2v2z"/><path d="M0 0h24v24H0zm0 0h24v24H0z" fill="none"/></svg>
+                    <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+                </div>    
+                <!-- Mic icon -->
+                <div id="Mic">
+                    <svg
+                    height="24px"
+                    viewBox="0 0 24 24"
+                    width="24px"
+                    fill="#5f6368"
+                    version="1.1"
+                    id="svg2"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:svg="http://www.w3.org/2000/svg">
+                    <defs
+                        id="defs2">
+                        <linearGradient
+                        id="linearGradient3">
+                        <stop
+                            style="stop-color:#ecac00;stop-opacity:1;"
+                            offset="0.00316456"
+                            id="stop3" />
+                        <stop
+                            style="stop-color:#b40000;stop-opacity:1;"
+                            offset="0.5601266"
+                            id="stop4" />
+                        </linearGradient>
+                        <linearGradient
+                        xlink:href="#linearGradient3"
+                        id="linearGradient4"
+                        x1="5"
+                        y1="15.36"
+                        x2="19"
+                        y2="15.36"
+                        gradientUnits="userSpaceOnUse" />
+                    </defs>
+                    <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                        id="path1" />
+                    <rect
+                        style="fill:#5a52ff;fill-opacity:1"
+                        id="rect3"
+                        width="2.0273292"
+                        height="3.3987577"
+                        x="10.978881"
+                        y="18.663353" />
+                    <path
+                        d="m 19,12 h -1.7 c 0,3 -2.54,5.1 -5.3,5.1 C 9.24,17.1 6.7,15 6.7,12 H 5 c 0,3.42 2.5709317,6.707019 7,6.72 4.518509,-0.003 7,-3.3 7,-6.72 z"
+                        id="path3"
+                        style="fill:url(#linearGradient4);fill-opacity:1" />
+                    <path
+                        d="m 12,15 c 1.66,0 2.99,-1.34 2.99,-3 L 15,6 C 15,4.34 13.66,3 12,3 10.34,3 9,4.34 9,6 v 6 c 0,1.66 1.34,3 3,3 z"
+                        id="path2"
+                        style="fill:#5a52ff;fill-opacity:1" />
+                    </svg>
+                </div>    
+                    <!-- Camera icon -->
+                <div id="Camera">    
+                    <svg
+                       height="22px"
+                       viewBox="0 0 24 24"
+                       width="24px"
+                       fill="#5f6368"
+                       version="1.1"
+                       id="svg2"
+                       sodipodi:docname="camera.svg"
+                       inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+                       xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+                       xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+                       xmlns="http://www.w3.org/2000/svg"
+                       xmlns:svg="http://www.w3.org/2000/svg">
+                      <defs
+                         id="defs2" />
+                      <sodipodi:namedview
+                         id="namedview2"
+                         pagecolor="#ffffff"
+                         bordercolor="#000000"
+                         borderopacity="0.25"
+                         inkscape:showpageshadow="2"
+                         inkscape:pageopacity="0.0"
+                         inkscape:pagecheckerboard="0"
+                         inkscape:deskcolor="#d1d1d1"
+                         showguides="true"
+                         inkscape:zoom="27.695016"
+                         inkscape:cx="6.8604403"
+                         inkscape:cy="14.804108"
+                         inkscape:window-width="2160"
+                         inkscape:window-height="1136"
+                         inkscape:window-x="4313"
+                         inkscape:window-y="-7"
+                         inkscape:window-maximized="1"
+                         inkscape:current-layer="svg2">
+                        <sodipodi:guide
+                           position="-0.48745233,20.001085"
+                           orientation="0,-1"
+                           id="guide2"
+                           inkscape:locked="false" />
+                        <sodipodi:guide
+                           position="22.449689,12.402484"
+                           orientation="0,-1"
+                           id="guide4"
+                           inkscape:locked="false" />
+                        <sodipodi:guide
+                           position="19.50712,17.762415"
+                           orientation="1,0"
+                           id="guide5"
+                           inkscape:locked="false" />
+                        <sodipodi:guide
+                           position="19.028695,17.509662"
+                           orientation="0,-1"
+                           id="guide6"
+                           inkscape:locked="false" />
+                        <sodipodi:guide
+                           position="-2.1465839,3.9950311"
+                           orientation="0,-1"
+                           id="guide7"
+                           inkscape:locked="false" />
+                        <sodipodi:guide
+                           position="-4.5018634,4.978882"
+                           orientation="0,-1"
+                           id="guide8"
+                           inkscape:locked="false" />
+                        <sodipodi:guide
+                           position="11.933555,22.916773"
+                           orientation="1,0"
+                           id="guide9"
+                           inkscape:locked="false" />
+                        <sodipodi:guide
+                           position="21.972671,24.924224"
+                           orientation="1,0"
+                           id="guide11"
+                           inkscape:locked="false" />
+                        <sodipodi:guide
+                           position="4.0621028,8.5820632"
+                           orientation="0,-1"
+                           id="guide12"
+                           inkscape:locked="false" />
+                        <sodipodi:guide
+                           position="16.838298,22.32766"
+                           orientation="1,0"
+                           id="guide13"
+                           inkscape:locked="false" />
+                        <sodipodi:guide
+                           position="5.3710026,6.4607428"
+                           orientation="0,-1"
+                           id="guide14"
+                           inkscape:locked="false" />
+                        <sodipodi:guide
+                           position="-0.5596675,7.2460827"
+                           orientation="0,-1"
+                           id="guide15"
+                           inkscape:locked="false" />
+                        <sodipodi:guide
+                           position="1.9949438,22.212675"
+                           orientation="1,0"
+                           id="guide16"
+                           inkscape:locked="false" />
+                        <sodipodi:guide
+                           position="1.633868,10.441604"
+                           orientation="0,-1"
+                           id="guide17"
+                           inkscape:locked="false" />
+                        <sodipodi:guide
+                           position="4.4863669,17.771442"
+                           orientation="1,0"
+                           id="guide20"
+                           inkscape:locked="false" />
+                      </sodipodi:namedview>
+                      <path
+                         d="M0 0h24v24H0z"
+                         fill="none"
+                         id="path1" />
+                      <circle
+                         cx="12"
+                         cy="12"
+                         r="3.2"
+                         id="circle1"
+                         style="fill:#5c53ff;fill-opacity:1" />
+                      <path
+                         style="fill:#f9af00;fill-opacity:1"
+                         d="m 16.834735,6.4973015 c 0.476932,-0.011467 2.090911,-0.061312 2.239577,0.1727627 0.512497,0.253224 0.436242,0.8187103 0.433659,2.1949775 l -0.0051,2.7293243 c 6.74e-4,0.411122 2.46701,0.43673 2.497152,0.04787 V 6 C 22,4.9 21.099995,3.9968534 20,4 l -3.155679,0.00903"
+                         id="path18"
+                         sodipodi:nodetypes="ccsccssc" />
+                      <path
+                         style="fill:#5c53ff;fill-opacity:1"
+                         d="m 16.839027,4 c 0,0 0.01986,-1.9192488 -1.589637,-1.9172092 -3.227039,-0.00261 -3.259616,-0.00106 -6.2854976,0.00748 C 7.1756675,2.1009953 7.17,4 7.17,4 H 4 C 2.9,4 2,4.9 2,6 v 3 2.623404 c -0.022795,0.345158 2.1546922,0.47336 2.4918318,-0.0309 0.00903,-3.8928602 -0.00339,-1.8308601 -0.00557,-3.2265479 C 4.4856249,7.9580832 4.4860968,7.3691622 4.9094526,6.9828572 5.4324003,6.5056763 5.2816072,6.502494 11.43369,6.4914619 c 2.032505,-0.00364 3.725251,-0.00273 5.405608,0.00588"
+                         id="path17"
+                         sodipodi:nodetypes="ccccsscccsssc" />
+                      <path
+                         style="fill:#ac1800;fill-opacity:1"
+                         d="M 2.0074781,13.564925 C 1.969653,15.658256 2,15.906405 2,18 c 0,1.1 0.9000007,1.998747 2,2 l 7.927785,0.009 c 0.301896,-7.37e-4 0.317761,-2.469395 0,-2.464841 C 6.0381204,17.498305 5.5417601,17.73673 5.064871,17.188847 4.5283441,16.861114 4.5051209,16.175913 4.4943196,14.879649 c -0.011725,-1.407125 -0.013078,0.467876 -0.018801,-1.289055 0.00508,-0.608623 -2.5416772,-0.51658 -2.4680408,-0.02567 z"
+                         id="path2"
+                         sodipodi:nodetypes="ssscccscss" />
+                      <circle
+                         style="fill:#138600;fill-opacity:1;stroke-width:1.5614"
+                         id="path16"
+                         cx="18.88092"
+                         cy="17.420517"
+                         r="1.8040965" />
+                    </svg>
+                </div>
+            </div>
+            <div class="center">
+                <button>Sök på Google</button>
+                <button>Jag har tur</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="Land">
+            <p>Sverige</p>
+        </div>
+        <div class="foot-foot">
+            <div class="Left-foot">
+                <a href="http://Om">Om</a>
+                <a href="http://Annonsering">Annonsering</a>
+                <a href="http://Företagslösningar">Företagslösningar</a>
+                <a href="http://Så fungerar Sök">Så fungerar Sök</a>
+            </div>
+            <span>
+                <p>Koldioxidneutralt sedan 2007</p>
+            </span>
+            <div class="Right-foot">
+                <a href="http://Integritet">Integritet</a>
+                <a href="http://Villkor">Villkor</a>
+                <div class="Inst">
+                    <p>Inställningar</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
