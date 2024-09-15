@@ -1,0 +1,22 @@
+*,html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{ 
+    background-color: blue;
+}
+a{
+    background-color: gray;
+    display: inline-block;
+    padding: 20px;
+    height: 48px;
+    width: auto;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover {
+    background-color: aqua;
+}
