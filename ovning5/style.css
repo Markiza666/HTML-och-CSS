@@ -1,0 +1,37 @@
+*,html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100wh;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    aside {
+
+    }
+    nav {
+        display: flex;
+        flex-direction: row;
+        h1{
+            background-color: aqua;
+        }
+        
+        a{
+            background-color: rgb(254, 254, 76);
+            padding: 0.5rem;
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            display: inline-block;
+            margin: 0.5rem;
+        }
+    }
+}
